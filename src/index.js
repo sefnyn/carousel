@@ -27,7 +27,8 @@ function App() {
       style={{
         background: "black",
         height: "100vh",
-        width: "100vw"
+        width: "100vw",
+        flex: 1
       }}
       index={index}
       onRequestChange={i => {

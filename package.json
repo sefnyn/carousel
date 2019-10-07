@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://sefnyn.github.io/carousel",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "16.8.6",

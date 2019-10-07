@@ -1,10 +1,11 @@
 {
-  "name": "final-image-gallery",
+  "name": "carousel",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-gesture-gallery": "1.0.0",
@@ -15,6 +16,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

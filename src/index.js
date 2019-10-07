@@ -2,12 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 
+
+import s01 from './img/slide001.png';
+import s02 from './img/slide002.png';
+import s03 from './img/slide003.png';
+import s04 from './img/slide004.png';
+import s05 from './img/slide005.png';
+import s06 from './img/slide006.png';
+import s07 from './img/slide007.png';
+
 const images = [
-  "https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80",
-  "https://images.unsplash.com/photo-1557389352-e721da78ad9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-  "https://images.unsplash.com/photo-1553969420-fb915228af51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80",
-  "https://images.unsplash.com/photo-1550596334-7bb40a71b6bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-  "https://images.unsplash.com/photo-1550640964-4775934de4af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+  s01, s02, s03, s04, s05, s06, s07
 ];
 
 function App() {

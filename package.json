@@ -2,7 +2,8 @@
   "name": "carousel",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
+  "keywords": ["research data management"],
+  "license": "CC-BY-4.0",
   "main": "src/index.js",
   "homepage": "https://sefnyn.github.io/carousel",
   "dependencies": {

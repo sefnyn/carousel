@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03b86542b418fc9959a2fb6b38e03a53",
+    "revision": "75588acaab1b233a8efca4d373dac899",
     "url": "/carousel/index.html"
   },
   {

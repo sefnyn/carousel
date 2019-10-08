@@ -23,12 +23,7 @@ function App() {
   }, [index]);
 
   return (
-    <Gallery
-      style={{
-        background: "black",
-        height: "100vh",
-        width: "100vw",
-      }}
+    <Gallery className='slides'
       index={index}
       onRequestChange={i => {
         setIndex(i);

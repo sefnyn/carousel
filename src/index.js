@@ -103,6 +103,7 @@ function App() {
   return (
     <Gallery className='slides'
       index={index}
+      enableIndicators={false}
       onRequestChange={i => {
         setIndex(i);
       }}
